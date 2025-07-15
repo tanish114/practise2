@@ -1,0 +1,256 @@
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+ #main{
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-color:rgb(5, 13, 14);
+      display: flex;
+   
+    justify-content: center;
+    align-items: center;  
+}
+
+ #primary-box{
+    height: 90%;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-image: url(toushif-alam-20vHjfKOopw-unsplash.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+ }
+
+ .first{
+    height: 100%;
+    width: 50%;
+     display: flex;
+     flex-direction: column; 
+    justify-content:flex-end;
+    align-items: center;
+    gap: 10px; 
+    padding-bottom: 10%;
+ }
+
+ .first h1{
+    color: aliceblue;
+    font-size: 150px;
+ }
+
+ .first i{
+    color: aliceblue;
+    font-size: 80px;
+ }
+ .first h2{
+    color: aliceblue;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .first p{
+    color: aliceblue;
+    font-size: 50px;
+ }
+
+ .second{
+    height: 100%;
+    width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items: center;
+   gap: 20px;
+    
+ }
+
+ .box1{
+    height: 300px;
+    width: 700px;
+    border: 1px solid black;
+    border-radius: 15px;
+ }
+
+ .box1 p{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size:x-large;
+    color: aliceblue;
+    padding-top: 20px;
+    
+ }
+ .small{
+    border: 1px solid rgb(53, 53, 53);
+    width: 80%;
+    height: 1%;
+    margin-left: 80px;
+    margin-top: 10px;
+ }
+
+ .box1 ul{
+    list-style: none;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-large;
+    margin-top: 5px;
+ }
+ .icon{
+    color: blue;
+ }
+ .no1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+ }
+ .no1 h1{
+    font-size:smaller;
+ }
+  .no1 p{
+    font-size:xx-large;
+ }
+
+ .no2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .no2 i{
+    font-size:xx-large;
+ }
+
+  .no2 p{
+    font-size:xx-large;
+ }
+
+ .no3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .no3 i{
+    font-size:xx-large;
+ }
+
+  .no3 p{
+    font-size:xx-large;
+ }
+
+ .no4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .no4 i{
+    font-size:xx-large;
+ }
+
+  .no4 p{
+    font-size:xx-large;
+ }
+
+ .no5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .no5 i{
+    font-size:xx-large;
+ }
+
+  .no5 p{
+    font-size:xx-large;
+ }
+
+ .no6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .no6 i{
+    font-size:30px;
+ }
+
+  .no6 p{
+    font-size:xx-large;
+ }
+
+ 
+ .box2{
+    height: 420px;
+    width: 700px;
+    border: 1px solid black;
+    border-radius: 15px;
+    /* display: flex;
+    /* justify-content: center;
+    align-items: center; */ 
+
+ }
+
+ .box2 p{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size:x-large;
+    color: aliceblue;
+    padding-top: 20px;
+ }
+
+ .last{
+    font-size: xx-large;
+    color: aliceblue; 
+ }
+ .last ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+ }
+
+ .last1{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 90px;
+ }
+
+ .last2{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 90px;
+ }
+
+ .last3{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 90px;
+ }
+ .last4{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 90px;
+ }
+ .last5{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 90px;
+ }
